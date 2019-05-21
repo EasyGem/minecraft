@@ -1,0 +1,113 @@
+---- Minecraft Crash Report ----
+// But it works on my machine.
+
+Time: 21.05.19 18:11
+Description: Exception in server tick loop
+
+cpw.mods.fml.common.LoaderException: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
+	at cpw.mods.fml.common.LoadController.transition(LoadController.java:163)
+	at cpw.mods.fml.common.Loader.preinitializeMods(Loader.java:559)
+	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:88)
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:314)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:117)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
+	at info.jbcs.minecraft.chisel.ChiselBlocks.load(ChiselBlocks.java:84)
+	at info.jbcs.minecraft.chisel.Chisel.preInit(Chisel.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.preinitializeMods(Loader.java:556)
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.resources.I18n
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 33 more
+Caused by: java.lang.NullPointerException
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182)
+	... 35 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_211, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 328276304 bytes (313 MB) / 614989824 bytes (586 MB) up to 1881145344 bytes (1794 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1558 37 mods loaded, 37 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCH	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCH	FML{7.10.99.99} [Forge Mod Loader] (forge-server.jar) 
+	UCH	Forge{10.13.4.1558} [Minecraft Forge] (forge-server.jar) 
+	UCH	appliedenergistics2-core{rv2-stable-10} [AppliedEnergistics2 Core] (minecraft.jar) 
+	UCH	PlayerAPI{1.4} [Player API] (minecraft.jar) 
+	UCH	SmartCore{1.0.3} [Smart Core] (minecraft.jar) 
+	UCH	<CoFH ASM>{000} [CoFH ASM] (minecraft.jar) 
+	UCH	bspkrsCore{6.16} [bspkrsCore] ([1.7.10]bspkrsCore-universal-6.16.jar) 
+	UCH	ArmorStatusHUD{1.28} [ArmorStatusHUD] ([1.7.10]ArmorStatusHUD-client-1.28 (1).jar) 
+	UCH	StatusEffectHUD{1.27} [StatusEffectHUD] ([1.7.10]StatusEffectHUD-client-1.27.jar) 
+	UCH	Treecapitator{1.7.10} [Treecapitator] ([1.7.10]Treecapitator-universal-2.0.5b.jar) 
+	UCH	CoFHCore{1.7.10R3.0.2} [CoFH Core] (CoFHCore-[1.7.10]3.0.2-262.jar) 
+	UCH	BuildCraft|Core{7.1.11} [BuildCraft] (buildcraft_7.1.11.jar) 
+	UCH	BuildCraft|Builders{7.1.11} [BC Builders] (buildcraft_7.1.11.jar) 
+	UCH	BuildCraft|Transport{7.1.11} [BC Transport] (buildcraft_7.1.11.jar) 
+	UCH	BuildCraft|Energy{7.1.11} [BC Energy] (buildcraft_7.1.11.jar) 
+	UCH	BuildCraft|Silicon{7.1.11} [BC Silicon] (buildcraft_7.1.11.jar) 
+	UCH	BuildCraft|Factory{7.1.11} [BC Factory] (buildcraft_7.1.11.jar) 
+	UCH	Additional-Buildcraft-Objects{MC1.7.10-BC7.1release4.0.2} [Additional Buildcraft Objects] (ABO-MC1.7.10-BC7.1release4.0.2.jar) 
+	UCH	IC2{2.2.767-experimental} [IndustrialCraft 2] (industrialcraft-2-skymine-clientedition.jar) 
+	UCH	AdvancedSolarPanel{1.7.10-3.5.1} [Advanced Solar Panels] (Advanced-Solar-Panels-Addon-1.7.10.jar) 
+	UCH	appliedenergistics2{rv2-stable-10} [Applied Energistics 2] (appliedenergistics2_rv2_stable_10.jar) 
+	UCH	Backpack{2.0.0} [Backpack] (backpack_2.0.0_1.7.10.jar) 
+	UCH	BuildCraft|Robotics{7.1.11} [BC Robotics] (buildcraft_7.1.11.jar) 
+	UCE	chisel{1.5.5} [Chisel] (chisel_1.7.10_1.5.5.jar) 
+	UCH	CompactSolars{4.4.37.314} [Compact Solar Arrays] (CompactSolars-1.7.10-4.4.37.314-universal.jar) 
+	UCH	EnderIO{1.7.10-2.2.7.325} [Ender IO] (EnderIO_1.7.10_2.2.7.325.jar) 
+	UCH	Forestry{4.0.8.36} [Forestry for Minecraft] (forestry_1.7.10_4.0.8.36.jar) 
+	UCH	GraviSuite{1.7.10-2.0.3} [Graviation Suite] (Gravitation-Suite-Addon-1.7.10.jar) 
+	UCH	Railcraft{9.8.0.0} [Railcraft] (Railcraft_1.7.10_9.8.0.0.jar) 
+	UCH	ThermalFoundation{1.7.10R1.0.0} [Thermal Foundation] (ThermalFoundation-[1.7.10]1.0.0-81.jar) 
+	UCH	ThermalExpansion{1.7.10R4.0.1} [Thermal Expansion] (ThermalExpansion-[1.7.10]4.0.1-182.jar) 
+	UCH	gregtech{MC1710} [GregTech] (gregtech5-skymine-clientedition.jar) 
+	UCH	IronChest{6.0.41.729} [Iron Chest] (iron_chests_mod_1.7.10.jar) 
+	UCH	SmartMoving{15.6} [Smart Moving] (SmartMoving-1.7.10-15.6.jar) 
+	UCH	SmartRender{2.1} [Smart Render] (SmartRender-1.7.10-2.1.jar) 
+	UCH	Waila{1.5.10} [Waila] (Waila_1.5.10_1.7.10.jar) 
+	CoFHCore: -[1.7.10]3.0.2-262
+	AE2 Version: stable rv2-stable-10 for Forge 10.13.2.1291
+	ThermalFoundation: -[1.7.10]1.0.0-81
+	ThermalExpansion: -[1.7.10]4.0.1-182
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
