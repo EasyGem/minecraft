@@ -6290,3 +6290,338 @@ java.lang.RuntimeException: ambiguous recipe: [[1xtile.stonebrick@0] -> [1xtile.
 [18:28:46] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - GregTech took 0,013s
 [18:28:46] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarted took 0,066s
 [18:29:31] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[18:30:04] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppingEvent to mod mcp
+[18:30:04] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppingEvent to mod mcp
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Coder Pack took 0,000s
+[18:30:04] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppingEvent to mod FML
+[18:30:04] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppingEvent to mod FML
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Forge Mod Loader took 0,000s
+[18:30:04] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppingEvent to mod Forge
+[18:30:04] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppingEvent to mod Forge
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Forge took 0,000s
+[18:30:04] [Server thread/TRACE] [appliedenergistics2-core/appliedenergistics2-core]: Sending event FMLServerStoppingEvent to mod appliedenergistics2-core
+[18:30:04] [Server thread/TRACE] [appliedenergistics2-core/appliedenergistics2-core]: Sent event FMLServerStoppingEvent to mod appliedenergistics2-core
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - AppliedEnergistics2 Core took 0,000s
+[18:30:04] [Server thread/TRACE] [PlayerAPI/PlayerAPI]: Sending event FMLServerStoppingEvent to mod PlayerAPI
+[18:30:04] [Server thread/TRACE] [PlayerAPI/PlayerAPI]: Sent event FMLServerStoppingEvent to mod PlayerAPI
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Player API took 0,000s
+[18:30:04] [Server thread/TRACE] [SmartCore/SmartCore]: Sending event FMLServerStoppingEvent to mod SmartCore
+[18:30:04] [Server thread/TRACE] [SmartCore/SmartCore]: Sent event FMLServerStoppingEvent to mod SmartCore
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Smart Core took 0,000s
+[18:30:04] [Server thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sending event FMLServerStoppingEvent to mod <CoFH ASM>
+[18:30:04] [Server thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sent event FMLServerStoppingEvent to mod <CoFH ASM>
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - CoFH ASM took 0,000s
+[18:30:04] [Server thread/TRACE] [bspkrsCore/bspkrsCore]: Sending event FMLServerStoppingEvent to mod bspkrsCore
+[18:30:04] [Server thread/TRACE] [bspkrsCore/bspkrsCore]: Sent event FMLServerStoppingEvent to mod bspkrsCore
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - bspkrsCore took 0,000s
+[18:30:04] [Server thread/TRACE] [ArmorStatusHUD/ArmorStatusHUD]: Sending event FMLServerStoppingEvent to mod ArmorStatusHUD
+[18:30:04] [Server thread/TRACE] [ArmorStatusHUD/ArmorStatusHUD]: Sent event FMLServerStoppingEvent to mod ArmorStatusHUD
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - ArmorStatusHUD took 0,000s
+[18:30:04] [Server thread/TRACE] [StatusEffectHUD/StatusEffectHUD]: Sending event FMLServerStoppingEvent to mod StatusEffectHUD
+[18:30:04] [Server thread/TRACE] [StatusEffectHUD/StatusEffectHUD]: Sent event FMLServerStoppingEvent to mod StatusEffectHUD
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - StatusEffectHUD took 0,000s
+[18:30:04] [Server thread/TRACE] [Treecapitator/Treecapitator]: Sending event FMLServerStoppingEvent to mod Treecapitator
+[18:30:04] [Server thread/TRACE] [Treecapitator/Treecapitator]: Sent event FMLServerStoppingEvent to mod Treecapitator
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Treecapitator took 0,000s
+[18:30:04] [Server thread/TRACE] [CoFHCore/CoFHCore]: Sending event FMLServerStoppingEvent to mod CoFHCore
+[18:30:04] [Server thread/TRACE] [CoFHCore/CoFHCore]: Sent event FMLServerStoppingEvent to mod CoFHCore
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - CoFH Core took 0,000s
+[18:30:04] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sending event FMLServerStoppingEvent to mod BuildCraft|Core
+[18:30:04] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sent event FMLServerStoppingEvent to mod BuildCraft|Core
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - BuildCraft took 0,000s
+[18:30:04] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sending event FMLServerStoppingEvent to mod BuildCraft|Builders
+[18:30:04] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sent event FMLServerStoppingEvent to mod BuildCraft|Builders
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - BC Builders took 0,003s
+[18:30:04] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sending event FMLServerStoppingEvent to mod BuildCraft|Transport
+[18:30:04] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sent event FMLServerStoppingEvent to mod BuildCraft|Transport
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - BC Transport took 0,000s
+[18:30:04] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sending event FMLServerStoppingEvent to mod BuildCraft|Energy
+[18:30:04] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sent event FMLServerStoppingEvent to mod BuildCraft|Energy
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - BC Energy took 0,000s
+[18:30:04] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sending event FMLServerStoppingEvent to mod BuildCraft|Silicon
+[18:30:04] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sent event FMLServerStoppingEvent to mod BuildCraft|Silicon
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - BC Silicon took 0,000s
+[18:30:04] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sending event FMLServerStoppingEvent to mod BuildCraft|Factory
+[18:30:04] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sent event FMLServerStoppingEvent to mod BuildCraft|Factory
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - BC Factory took 0,000s
+[18:30:04] [Server thread/TRACE] [Additional-Buildcraft-Objects/Additional-Buildcraft-Objects]: Sending event FMLServerStoppingEvent to mod Additional-Buildcraft-Objects
+[18:30:04] [Server thread/TRACE] [Additional-Buildcraft-Objects/Additional-Buildcraft-Objects]: Sent event FMLServerStoppingEvent to mod Additional-Buildcraft-Objects
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Additional Buildcraft Objects took 0,000s
+[18:30:04] [Server thread/TRACE] [IC2/IC2]: Sending event FMLServerStoppingEvent to mod IC2
+[18:30:04] [Server thread/TRACE] [IC2/IC2]: Sent event FMLServerStoppingEvent to mod IC2
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - IndustrialCraft 2 took 0,000s
+[18:30:04] [Server thread/TRACE] [AdvancedSolarPanel/AdvancedSolarPanel]: Sending event FMLServerStoppingEvent to mod AdvancedSolarPanel
+[18:30:04] [Server thread/TRACE] [AdvancedSolarPanel/AdvancedSolarPanel]: Sent event FMLServerStoppingEvent to mod AdvancedSolarPanel
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Advanced Solar Panels took 0,000s
+[18:30:04] [Server thread/TRACE] [appliedenergistics2/appliedenergistics2]: Sending event FMLServerStoppingEvent to mod appliedenergistics2
+[18:30:04] [Server thread/TRACE] [appliedenergistics2/appliedenergistics2]: Sent event FMLServerStoppingEvent to mod appliedenergistics2
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Applied Energistics 2 took 0,004s
+[18:30:04] [Server thread/TRACE] [Backpack/Backpack]: Sending event FMLServerStoppingEvent to mod Backpack
+[18:30:04] [Server thread/TRACE] [Backpack/Backpack]: Sent event FMLServerStoppingEvent to mod Backpack
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Backpack took 0,000s
+[18:30:04] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sending event FMLServerStoppingEvent to mod BuildCraft|Robotics
+[18:30:04] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sent event FMLServerStoppingEvent to mod BuildCraft|Robotics
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - BC Robotics took 0,013s
+[18:30:04] [Server thread/TRACE] [CompactSolars/CompactSolars]: Sending event FMLServerStoppingEvent to mod CompactSolars
+[18:30:04] [Server thread/TRACE] [CompactSolars/CompactSolars]: Sent event FMLServerStoppingEvent to mod CompactSolars
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Compact Solar Arrays took 0,000s
+[18:30:04] [Server thread/TRACE] [EnderIO/EnderIO]: Sending event FMLServerStoppingEvent to mod EnderIO
+[18:30:04] [Server thread/TRACE] [EnderIO/EnderIO]: Sent event FMLServerStoppingEvent to mod EnderIO
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Ender IO took 0,000s
+[18:30:04] [Server thread/TRACE] [Forestry/Forestry]: Sending event FMLServerStoppingEvent to mod Forestry
+[18:30:04] [Server thread/TRACE] [Forestry/Forestry]: Sent event FMLServerStoppingEvent to mod Forestry
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Forestry for Minecraft took 0,000s
+[18:30:04] [Server thread/TRACE] [GraviSuite/GraviSuite]: Sending event FMLServerStoppingEvent to mod GraviSuite
+[18:30:04] [Server thread/TRACE] [GraviSuite/GraviSuite]: Sent event FMLServerStoppingEvent to mod GraviSuite
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Graviation Suite took 0,000s
+[18:30:04] [Server thread/TRACE] [Railcraft/Railcraft]: Sending event FMLServerStoppingEvent to mod Railcraft
+[18:30:04] [Server thread/TRACE] [Railcraft/Railcraft]: Sent event FMLServerStoppingEvent to mod Railcraft
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Railcraft took 0,000s
+[18:30:04] [Server thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sending event FMLServerStoppingEvent to mod ThermalFoundation
+[18:30:04] [Server thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sent event FMLServerStoppingEvent to mod ThermalFoundation
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Thermal Foundation took 0,000s
+[18:30:04] [Server thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sending event FMLServerStoppingEvent to mod ThermalExpansion
+[18:30:04] [Server thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sent event FMLServerStoppingEvent to mod ThermalExpansion
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Thermal Expansion took 0,000s
+[18:30:04] [Server thread/TRACE] [IronChest/IronChest]: Sending event FMLServerStoppingEvent to mod IronChest
+[18:30:04] [Server thread/TRACE] [IronChest/IronChest]: Sent event FMLServerStoppingEvent to mod IronChest
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Iron Chest took 0,000s
+[18:30:04] [Server thread/TRACE] [SmartMoving/SmartMoving]: Sending event FMLServerStoppingEvent to mod SmartMoving
+[18:30:04] [Server thread/TRACE] [SmartMoving/SmartMoving]: Sent event FMLServerStoppingEvent to mod SmartMoving
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Smart Moving took 0,000s
+[18:30:04] [Server thread/TRACE] [SmartRender/SmartRender]: Sending event FMLServerStoppingEvent to mod SmartRender
+[18:30:04] [Server thread/TRACE] [SmartRender/SmartRender]: Sent event FMLServerStoppingEvent to mod SmartRender
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Smart Render took 0,000s
+[18:30:04] [Server thread/TRACE] [Waila/Waila]: Sending event FMLServerStoppingEvent to mod Waila
+[18:30:04] [Server thread/TRACE] [Waila/Waila]: Sent event FMLServerStoppingEvent to mod Waila
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Waila took 0,000s
+[18:30:04] [Server thread/TRACE] [gregtech/gregtech]: Sending event FMLServerStoppingEvent to mod gregtech
+[18:30:04] [Server thread/TRACE] [gregtech/gregtech]: Sent event FMLServerStoppingEvent to mod gregtech
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - GregTech took 0,643s
+[18:30:04] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopping took 0,666s
+[18:30:04] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[18:30:05] [Server thread/INFO] [FML/]: Unloading dimension 0
+[18:30:05] [Server thread/INFO] [FML/]: Unloading dimension -1
+[18:30:05] [Server thread/INFO] [FML/]: Unloading dimension 1
+[18:30:05] [Server thread/DEBUG] [FML/]: Reverting to frozen data state.
+[18:30:05] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[18:30:05] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0,000s
+[18:30:05] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[18:30:05] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0,000s
+[18:30:05] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[18:30:05] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0,007s
+[18:30:05] [Server thread/TRACE] [appliedenergistics2-core/appliedenergistics2-core]: Sending event FMLModIdMappingEvent to mod appliedenergistics2-core
+[18:30:05] [Server thread/TRACE] [appliedenergistics2-core/appliedenergistics2-core]: Sent event FMLModIdMappingEvent to mod appliedenergistics2-core
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - AppliedEnergistics2 Core took 0,000s
+[18:30:05] [Server thread/TRACE] [PlayerAPI/PlayerAPI]: Sending event FMLModIdMappingEvent to mod PlayerAPI
+[18:30:05] [Server thread/TRACE] [PlayerAPI/PlayerAPI]: Sent event FMLModIdMappingEvent to mod PlayerAPI
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Player API took 0,000s
+[18:30:05] [Server thread/TRACE] [SmartCore/SmartCore]: Sending event FMLModIdMappingEvent to mod SmartCore
+[18:30:05] [Server thread/TRACE] [SmartCore/SmartCore]: Sent event FMLModIdMappingEvent to mod SmartCore
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Smart Core took 0,000s
+[18:30:05] [Server thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sending event FMLModIdMappingEvent to mod <CoFH ASM>
+[18:30:05] [Server thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sent event FMLModIdMappingEvent to mod <CoFH ASM>
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - CoFH ASM took 0,000s
+[18:30:05] [Server thread/TRACE] [bspkrsCore/bspkrsCore]: Sending event FMLModIdMappingEvent to mod bspkrsCore
+[18:30:05] [Server thread/TRACE] [bspkrsCore/bspkrsCore]: Sent event FMLModIdMappingEvent to mod bspkrsCore
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - bspkrsCore took 0,000s
+[18:30:05] [Server thread/TRACE] [ArmorStatusHUD/ArmorStatusHUD]: Sending event FMLModIdMappingEvent to mod ArmorStatusHUD
+[18:30:05] [Server thread/TRACE] [ArmorStatusHUD/ArmorStatusHUD]: Sent event FMLModIdMappingEvent to mod ArmorStatusHUD
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - ArmorStatusHUD took 0,000s
+[18:30:05] [Server thread/TRACE] [StatusEffectHUD/StatusEffectHUD]: Sending event FMLModIdMappingEvent to mod StatusEffectHUD
+[18:30:05] [Server thread/TRACE] [StatusEffectHUD/StatusEffectHUD]: Sent event FMLModIdMappingEvent to mod StatusEffectHUD
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - StatusEffectHUD took 0,000s
+[18:30:05] [Server thread/TRACE] [Treecapitator/Treecapitator]: Sending event FMLModIdMappingEvent to mod Treecapitator
+[18:30:05] [Server thread/TRACE] [Treecapitator/Treecapitator]: Sent event FMLModIdMappingEvent to mod Treecapitator
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Treecapitator took 0,000s
+[18:30:05] [Server thread/TRACE] [CoFHCore/CoFHCore]: Sending event FMLModIdMappingEvent to mod CoFHCore
+[18:30:05] [Server thread/TRACE] [CoFHCore/CoFHCore]: Sent event FMLModIdMappingEvent to mod CoFHCore
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - CoFH Core took 0,000s
+[18:30:05] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sending event FMLModIdMappingEvent to mod BuildCraft|Core
+[18:30:05] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sent event FMLModIdMappingEvent to mod BuildCraft|Core
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BuildCraft took 0,000s
+[18:30:05] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sending event FMLModIdMappingEvent to mod BuildCraft|Builders
+[18:30:05] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sent event FMLModIdMappingEvent to mod BuildCraft|Builders
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BC Builders took 0,000s
+[18:30:05] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sending event FMLModIdMappingEvent to mod BuildCraft|Transport
+[18:30:05] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sent event FMLModIdMappingEvent to mod BuildCraft|Transport
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BC Transport took 0,000s
+[18:30:05] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sending event FMLModIdMappingEvent to mod BuildCraft|Energy
+[18:30:05] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sent event FMLModIdMappingEvent to mod BuildCraft|Energy
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BC Energy took 0,000s
+[18:30:05] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sending event FMLModIdMappingEvent to mod BuildCraft|Silicon
+[18:30:05] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sent event FMLModIdMappingEvent to mod BuildCraft|Silicon
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BC Silicon took 0,000s
+[18:30:05] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sending event FMLModIdMappingEvent to mod BuildCraft|Factory
+[18:30:05] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sent event FMLModIdMappingEvent to mod BuildCraft|Factory
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BC Factory took 0,000s
+[18:30:05] [Server thread/TRACE] [Additional-Buildcraft-Objects/Additional-Buildcraft-Objects]: Sending event FMLModIdMappingEvent to mod Additional-Buildcraft-Objects
+[18:30:05] [Server thread/TRACE] [Additional-Buildcraft-Objects/Additional-Buildcraft-Objects]: Sent event FMLModIdMappingEvent to mod Additional-Buildcraft-Objects
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Additional Buildcraft Objects took 0,000s
+[18:30:05] [Server thread/TRACE] [IC2/IC2]: Sending event FMLModIdMappingEvent to mod IC2
+[18:30:05] [Server thread/TRACE] [IC2/IC2]: Sent event FMLModIdMappingEvent to mod IC2
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - IndustrialCraft 2 took 0,000s
+[18:30:05] [Server thread/TRACE] [AdvancedSolarPanel/AdvancedSolarPanel]: Sending event FMLModIdMappingEvent to mod AdvancedSolarPanel
+[18:30:05] [Server thread/TRACE] [AdvancedSolarPanel/AdvancedSolarPanel]: Sent event FMLModIdMappingEvent to mod AdvancedSolarPanel
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Advanced Solar Panels took 0,000s
+[18:30:05] [Server thread/TRACE] [appliedenergistics2/appliedenergistics2]: Sending event FMLModIdMappingEvent to mod appliedenergistics2
+[18:30:05] [Server thread/TRACE] [appliedenergistics2/appliedenergistics2]: Sent event FMLModIdMappingEvent to mod appliedenergistics2
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Applied Energistics 2 took 0,000s
+[18:30:05] [Server thread/TRACE] [Backpack/Backpack]: Sending event FMLModIdMappingEvent to mod Backpack
+[18:30:05] [Server thread/TRACE] [Backpack/Backpack]: Sent event FMLModIdMappingEvent to mod Backpack
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Backpack took 0,000s
+[18:30:05] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sending event FMLModIdMappingEvent to mod BuildCraft|Robotics
+[18:30:05] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sent event FMLModIdMappingEvent to mod BuildCraft|Robotics
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BC Robotics took 0,000s
+[18:30:05] [Server thread/TRACE] [CompactSolars/CompactSolars]: Sending event FMLModIdMappingEvent to mod CompactSolars
+[18:30:05] [Server thread/TRACE] [CompactSolars/CompactSolars]: Sent event FMLModIdMappingEvent to mod CompactSolars
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Compact Solar Arrays took 0,000s
+[18:30:05] [Server thread/TRACE] [EnderIO/EnderIO]: Sending event FMLModIdMappingEvent to mod EnderIO
+[18:30:05] [Server thread/TRACE] [EnderIO/EnderIO]: Sent event FMLModIdMappingEvent to mod EnderIO
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Ender IO took 0,000s
+[18:30:05] [Server thread/TRACE] [Forestry/Forestry]: Sending event FMLModIdMappingEvent to mod Forestry
+[18:30:05] [Server thread/TRACE] [Forestry/Forestry]: Sent event FMLModIdMappingEvent to mod Forestry
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forestry for Minecraft took 0,000s
+[18:30:05] [Server thread/TRACE] [GraviSuite/GraviSuite]: Sending event FMLModIdMappingEvent to mod GraviSuite
+[18:30:05] [Server thread/TRACE] [GraviSuite/GraviSuite]: Sent event FMLModIdMappingEvent to mod GraviSuite
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Graviation Suite took 0,000s
+[18:30:05] [Server thread/TRACE] [Railcraft/Railcraft]: Sending event FMLModIdMappingEvent to mod Railcraft
+[18:30:05] [Server thread/TRACE] [Railcraft/Railcraft]: Sent event FMLModIdMappingEvent to mod Railcraft
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Railcraft took 0,000s
+[18:30:05] [Server thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sending event FMLModIdMappingEvent to mod ThermalFoundation
+[18:30:05] [Server thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sent event FMLModIdMappingEvent to mod ThermalFoundation
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Thermal Foundation took 0,000s
+[18:30:05] [Server thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sending event FMLModIdMappingEvent to mod ThermalExpansion
+[18:30:05] [Server thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sent event FMLModIdMappingEvent to mod ThermalExpansion
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Thermal Expansion took 0,000s
+[18:30:05] [Server thread/TRACE] [IronChest/IronChest]: Sending event FMLModIdMappingEvent to mod IronChest
+[18:30:05] [Server thread/TRACE] [IronChest/IronChest]: Sent event FMLModIdMappingEvent to mod IronChest
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Iron Chest took 0,000s
+[18:30:05] [Server thread/TRACE] [SmartMoving/SmartMoving]: Sending event FMLModIdMappingEvent to mod SmartMoving
+[18:30:05] [Server thread/TRACE] [SmartMoving/SmartMoving]: Sent event FMLModIdMappingEvent to mod SmartMoving
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Smart Moving took 0,000s
+[18:30:05] [Server thread/TRACE] [SmartRender/SmartRender]: Sending event FMLModIdMappingEvent to mod SmartRender
+[18:30:05] [Server thread/TRACE] [SmartRender/SmartRender]: Sent event FMLModIdMappingEvent to mod SmartRender
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Smart Render took 0,000s
+[18:30:05] [Server thread/TRACE] [Waila/Waila]: Sending event FMLModIdMappingEvent to mod Waila
+[18:30:05] [Server thread/TRACE] [Waila/Waila]: Sent event FMLModIdMappingEvent to mod Waila
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Waila took 0,000s
+[18:30:05] [Server thread/TRACE] [gregtech/gregtech]: Sending event FMLModIdMappingEvent to mod gregtech
+[18:30:05] [Server thread/TRACE] [gregtech/gregtech]: Sent event FMLModIdMappingEvent to mod gregtech
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - GregTech took 0,056s
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0,067s
+[18:30:05] [Server thread/INFO] [FML/]: Applying holder lookups
+[18:30:05] [Server thread/INFO] [FML/]: Holder lookups applied
+[18:30:05] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[18:30:05] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0,000s
+[18:30:05] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[18:30:05] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0,000s
+[18:30:05] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[18:30:05] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0,000s
+[18:30:05] [Server thread/TRACE] [appliedenergistics2-core/appliedenergistics2-core]: Sending event FMLServerStoppedEvent to mod appliedenergistics2-core
+[18:30:05] [Server thread/TRACE] [appliedenergistics2-core/appliedenergistics2-core]: Sent event FMLServerStoppedEvent to mod appliedenergistics2-core
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - AppliedEnergistics2 Core took 0,000s
+[18:30:05] [Server thread/TRACE] [PlayerAPI/PlayerAPI]: Sending event FMLServerStoppedEvent to mod PlayerAPI
+[18:30:05] [Server thread/TRACE] [PlayerAPI/PlayerAPI]: Sent event FMLServerStoppedEvent to mod PlayerAPI
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Player API took 0,000s
+[18:30:05] [Server thread/TRACE] [SmartCore/SmartCore]: Sending event FMLServerStoppedEvent to mod SmartCore
+[18:30:05] [Server thread/TRACE] [SmartCore/SmartCore]: Sent event FMLServerStoppedEvent to mod SmartCore
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Smart Core took 0,000s
+[18:30:05] [Server thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sending event FMLServerStoppedEvent to mod <CoFH ASM>
+[18:30:05] [Server thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sent event FMLServerStoppedEvent to mod <CoFH ASM>
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - CoFH ASM took 0,000s
+[18:30:05] [Server thread/TRACE] [bspkrsCore/bspkrsCore]: Sending event FMLServerStoppedEvent to mod bspkrsCore
+[18:30:05] [Server thread/TRACE] [bspkrsCore/bspkrsCore]: Sent event FMLServerStoppedEvent to mod bspkrsCore
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - bspkrsCore took 0,000s
+[18:30:05] [Server thread/TRACE] [ArmorStatusHUD/ArmorStatusHUD]: Sending event FMLServerStoppedEvent to mod ArmorStatusHUD
+[18:30:05] [Server thread/TRACE] [ArmorStatusHUD/ArmorStatusHUD]: Sent event FMLServerStoppedEvent to mod ArmorStatusHUD
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - ArmorStatusHUD took 0,000s
+[18:30:05] [Server thread/TRACE] [StatusEffectHUD/StatusEffectHUD]: Sending event FMLServerStoppedEvent to mod StatusEffectHUD
+[18:30:05] [Server thread/TRACE] [StatusEffectHUD/StatusEffectHUD]: Sent event FMLServerStoppedEvent to mod StatusEffectHUD
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - StatusEffectHUD took 0,000s
+[18:30:05] [Server thread/TRACE] [Treecapitator/Treecapitator]: Sending event FMLServerStoppedEvent to mod Treecapitator
+[18:30:05] [Server thread/TRACE] [Treecapitator/Treecapitator]: Sent event FMLServerStoppedEvent to mod Treecapitator
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Treecapitator took 0,000s
+[18:30:05] [Server thread/TRACE] [CoFHCore/CoFHCore]: Sending event FMLServerStoppedEvent to mod CoFHCore
+[18:30:05] [Server thread/TRACE] [CoFHCore/CoFHCore]: Sent event FMLServerStoppedEvent to mod CoFHCore
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - CoFH Core took 0,000s
+[18:30:05] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sending event FMLServerStoppedEvent to mod BuildCraft|Core
+[18:30:05] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sent event FMLServerStoppedEvent to mod BuildCraft|Core
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - BuildCraft took 0,000s
+[18:30:05] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sending event FMLServerStoppedEvent to mod BuildCraft|Builders
+[18:30:05] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sent event FMLServerStoppedEvent to mod BuildCraft|Builders
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - BC Builders took 0,000s
+[18:30:05] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sending event FMLServerStoppedEvent to mod BuildCraft|Transport
+[18:30:05] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sent event FMLServerStoppedEvent to mod BuildCraft|Transport
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - BC Transport took 0,000s
+[18:30:05] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sending event FMLServerStoppedEvent to mod BuildCraft|Energy
+[18:30:05] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sent event FMLServerStoppedEvent to mod BuildCraft|Energy
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - BC Energy took 0,000s
+[18:30:05] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sending event FMLServerStoppedEvent to mod BuildCraft|Silicon
+[18:30:05] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sent event FMLServerStoppedEvent to mod BuildCraft|Silicon
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - BC Silicon took 0,000s
+[18:30:05] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sending event FMLServerStoppedEvent to mod BuildCraft|Factory
+[18:30:05] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sent event FMLServerStoppedEvent to mod BuildCraft|Factory
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - BC Factory took 0,000s
+[18:30:05] [Server thread/TRACE] [Additional-Buildcraft-Objects/Additional-Buildcraft-Objects]: Sending event FMLServerStoppedEvent to mod Additional-Buildcraft-Objects
+[18:30:05] [Server thread/TRACE] [Additional-Buildcraft-Objects/Additional-Buildcraft-Objects]: Sent event FMLServerStoppedEvent to mod Additional-Buildcraft-Objects
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Additional Buildcraft Objects took 0,000s
+[18:30:05] [Server thread/TRACE] [IC2/IC2]: Sending event FMLServerStoppedEvent to mod IC2
+[18:30:05] [Server thread/TRACE] [IC2/IC2]: Sent event FMLServerStoppedEvent to mod IC2
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - IndustrialCraft 2 took 0,000s
+[18:30:05] [Server thread/TRACE] [AdvancedSolarPanel/AdvancedSolarPanel]: Sending event FMLServerStoppedEvent to mod AdvancedSolarPanel
+[18:30:05] [Server thread/TRACE] [AdvancedSolarPanel/AdvancedSolarPanel]: Sent event FMLServerStoppedEvent to mod AdvancedSolarPanel
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Advanced Solar Panels took 0,000s
+[18:30:05] [Server thread/TRACE] [appliedenergistics2/appliedenergistics2]: Sending event FMLServerStoppedEvent to mod appliedenergistics2
+[18:30:05] [Server thread/TRACE] [appliedenergistics2/appliedenergistics2]: Sent event FMLServerStoppedEvent to mod appliedenergistics2
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Applied Energistics 2 took 0,000s
+[18:30:05] [Server thread/TRACE] [Backpack/Backpack]: Sending event FMLServerStoppedEvent to mod Backpack
+[18:30:05] [Server thread/TRACE] [Backpack/Backpack]: Sent event FMLServerStoppedEvent to mod Backpack
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Backpack took 0,000s
+[18:30:05] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sending event FMLServerStoppedEvent to mod BuildCraft|Robotics
+[18:30:05] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sent event FMLServerStoppedEvent to mod BuildCraft|Robotics
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - BC Robotics took 0,000s
+[18:30:05] [Server thread/TRACE] [CompactSolars/CompactSolars]: Sending event FMLServerStoppedEvent to mod CompactSolars
+[18:30:05] [Server thread/TRACE] [CompactSolars/CompactSolars]: Sent event FMLServerStoppedEvent to mod CompactSolars
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Compact Solar Arrays took 0,000s
+[18:30:05] [Server thread/TRACE] [EnderIO/EnderIO]: Sending event FMLServerStoppedEvent to mod EnderIO
+[18:30:05] [pool-3-thread-1/INFO] [EnderIO/EnderIO]: ServerChannelRegister: Dimensional Trasciever data saved to C:\Users\dixso\Documents\GitHub\minecraft\Forge_Server\.\world\enderio\dimensionalTransceiver.json
+[18:30:05] [Server thread/TRACE] [EnderIO/EnderIO]: Sent event FMLServerStoppedEvent to mod EnderIO
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Ender IO took 0,021s
+[18:30:05] [Server thread/TRACE] [Forestry/Forestry]: Sending event FMLServerStoppedEvent to mod Forestry
+[18:30:05] [Server thread/TRACE] [Forestry/Forestry]: Sent event FMLServerStoppedEvent to mod Forestry
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forestry for Minecraft took 0,001s
+[18:30:05] [Server thread/TRACE] [GraviSuite/GraviSuite]: Sending event FMLServerStoppedEvent to mod GraviSuite
+[18:30:05] [Server thread/TRACE] [GraviSuite/GraviSuite]: Sent event FMLServerStoppedEvent to mod GraviSuite
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Graviation Suite took 0,001s
+[18:30:05] [Server thread/TRACE] [Railcraft/Railcraft]: Sending event FMLServerStoppedEvent to mod Railcraft
+[18:30:05] [Server thread/TRACE] [Railcraft/Railcraft]: Sent event FMLServerStoppedEvent to mod Railcraft
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Railcraft took 0,000s
+[18:30:05] [Server thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sending event FMLServerStoppedEvent to mod ThermalFoundation
+[18:30:05] [Server thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sent event FMLServerStoppedEvent to mod ThermalFoundation
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Thermal Foundation took 0,000s
+[18:30:05] [Server thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sending event FMLServerStoppedEvent to mod ThermalExpansion
+[18:30:05] [Server thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sent event FMLServerStoppedEvent to mod ThermalExpansion
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Thermal Expansion took 0,000s
+[18:30:05] [Server thread/TRACE] [IronChest/IronChest]: Sending event FMLServerStoppedEvent to mod IronChest
+[18:30:05] [Server thread/TRACE] [IronChest/IronChest]: Sent event FMLServerStoppedEvent to mod IronChest
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Iron Chest took 0,000s
+[18:30:05] [Server thread/TRACE] [SmartMoving/SmartMoving]: Sending event FMLServerStoppedEvent to mod SmartMoving
+[18:30:05] [Server thread/TRACE] [SmartMoving/SmartMoving]: Sent event FMLServerStoppedEvent to mod SmartMoving
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Smart Moving took 0,000s
+[18:30:05] [Server thread/TRACE] [SmartRender/SmartRender]: Sending event FMLServerStoppedEvent to mod SmartRender
+[18:30:05] [Server thread/TRACE] [SmartRender/SmartRender]: Sent event FMLServerStoppedEvent to mod SmartRender
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Smart Render took 0,000s
+[18:30:05] [Server thread/TRACE] [Waila/Waila]: Sending event FMLServerStoppedEvent to mod Waila
+[18:30:05] [Server thread/TRACE] [Waila/Waila]: Sent event FMLServerStoppedEvent to mod Waila
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Waila took 0,000s
+[18:30:05] [Server thread/TRACE] [gregtech/gregtech]: Sending event FMLServerStoppedEvent to mod gregtech
+[18:30:05] [Server thread/TRACE] [gregtech/gregtech]: Sent event FMLServerStoppedEvent to mod gregtech
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - GregTech took 0,000s
+[18:30:05] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0,027s
