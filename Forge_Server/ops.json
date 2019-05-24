@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "uuid": "c7e06521-9ca1-4dbb-a7fa-f7b70d178c43",
+    "name": "spokemon_boy",
+    "level": 4
+  },
+  {
+    "uuid": "f61a8e38-d4be-4310-8a7c-9326e17463ab",
+    "name": "FallenMuerte",
+    "level": 4
+  },
+  {
+    "uuid": "dd3b625b-20c3-4526-8025-83256584193c",
+    "name": "SavannaMarie",
+    "level": 4
+  }
+]
